@@ -1,29 +1,84 @@
 
-.body {
-    max-width: 1400px;
-    background-color: rgb(167, 167, 167);
+/* 全体共通 */
+.ifram {
+    width: 100%;
 }
 
-.container {
-    justify-content: center;
-}
-
-.block {
-    display: block;
-}
-
-
-.download_btn {
-    width: 150px;
-    height: 50px;
-    border: none;
+.header {
     background-color: aliceblue;
-    border-radius: 10px;
+    max-width: 1404px;
+    height: 70px;
+    background-color: aliceblue;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.download_btn a {
+h1 {
+    margin-top: auto;
+    margin: 5px 10px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    display: block;
     text-decoration: none;
-    color: black;
+    color: white;
+    margin-right: 35px;
+}
+
+.content {
+    max-width: 1404px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-list {
+    max-width: 448px;
+}
+
+.btn-list {
+    max-width: 1404px;
+    margin-left: 312px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn-block {
+    /*margin-left: 312px;*/
+    max-width: 448px;
+    margin: 10px 0;
+    margin-left: 312px;
+}
+
+.download-btn {
     font-size: 20px;
     font-weight: bold;
+    height: 35px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 0 black;
+}
+
+.download-btn:hover {
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+
+.download-btn a {
+    color: black;
+    text-decoration: none;
 }
